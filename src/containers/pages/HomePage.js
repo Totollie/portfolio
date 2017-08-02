@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import me from '../../../public/images/me.png';
 import seyahlogo from '../../../public/images/seyahlogo.png';
 import itinnov from '../../../public/images/itInnov.png';
+import sotonuni from '../../../public/images/sotonuni.png';
 import {Button, Col, Grid, Image, Jumbotron, Media, PageHeader, Row, Table, Thumbnail} from "react-bootstrap";
 import TextEntry from "../../components/textEntry/TextEntry";
 
@@ -66,22 +67,52 @@ class HomePage extends Component {
 						<Row>
 							<Media>
 								<Media.Left>
-									<img width={64} height={64} src={itinnov} alt="Image"/>
+									<img width={64} src={itinnov} alt="Image"/>
 								</Media.Left>
 								<Media.Body>
-									<Media.Heading>Research Project Assistant 5G-ENSURE
-										<small>IT Innovation Centre (June 2016 - September 2017)</small>
+									<Media.Heading>
+										<span style={{display: "block"}}>Research Project Assistant 5G-ENSURE</span>
+										&nbsp;
+										<small>
+											IT Innovation Centre (June 2016 - September 2017)
+										</small>
 									</Media.Heading>
+									<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
+										Contributions towards H2020 Research Project 5G-ENSURE for modelling security
+										threats in future mobile networks.
+									</span>
+									Developing and maintaining ReactJS + Spring Boot based modelling
+									application, for the purpose of creating graphical diagrams. Designed user
+									interface and contributed to development of RESTful web service, alongside
+									deployment of the application. It used libraries such as JSPlumb, Axios, and
+									common web development integration tools such as hot module reloading.
+								</Media.Body>
+							</Media>
+						</Row>
+						<Row>
+							<Media>
+								<Media.Left>
+									<img width={64} src={seyahlogo} alt="Image"/>
+								</Media.Left>
+								<Media.Body>
+									<Media.Heading>Principal Software Developer
+										&nbsp;
+										<small>
+											SEYAH Freelancing (May 2012 - Ongoing)
+										</small>
+									</Media.Heading>
+									<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
+										Dedication to completing contracted jobs for clients from multiple
+										countries, using my skills in Java and Javascript to give them the solution they
+										are looking for.
+									</span>
 									<p>
-										<span style={{fontWeight: "600", display: "block"}}>
-											Contributions towards H2020 Research Project 5G-ENSURE
-											for modelling security threats in future mobile networks
-										</span>
-										Developing and maintaining ReactJS + Spring Boot based modelling
-										application, for the purpose of creating graphical diagrams. Designed user
-										interface and contributed to development of RESTful web service, alongside
-										deployment of the application. It used libraries such as JSPlumb, Axios, and
-										common web development integrated tools such as hot module reloading.
+										Developing and maintaining code for a range of clients, from startups to
+										individual clients. Requests range from gaming mods to business dashboards and
+										secure site areas. This has used all of my skills in timekeeping and
+										organisation, on top of my coding ability in Java and Javascript. It also
+										reflects on my ability to work in teams and to pick up on code and API developed
+										before my contributions.
 									</p>
 								</Media.Body>
 							</Media>
@@ -89,16 +120,26 @@ class HomePage extends Component {
 						<Row>
 							<Media>
 								<Media.Left>
-									<img width={64} height={64} src={seyahlogo} alt="Image"/>
+									<img width={64} src={sotonuni} alt="Image"/>
 								</Media.Left>
 								<Media.Body>
-									<Media.Heading>Principal Software Developer
-										<small>SEYAH Freelancing (May 2012 - Ongoing)</small>
+									<Media.Heading>Student Programming Support
+										&nbsp;
+										<small>
+											iSolutions (ECS) - University of Southampton (March 2017 - June 2017)
+										</small>
 									</Media.Heading>
-									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-										sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-										viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
-										lacinia congue felis in faucibus.</p>
+									<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
+										Teaching and aiding fellow students in various programming languages and problems.
+									</span>
+									<p>
+										Dedicated time to offering assistance to other students that are struggling with
+										a particular problem or concept, specifically teaching them and working with
+										them how to derive the solution, which is far more effective than just showing
+										it to them. Languages encountered include Java, Javascript, OCaml, Scheme, C++,
+										C and more. I also helped the students new to programming with setting up their
+										environment, as this can be confusing to beginners.
+									</p>
 								</Media.Body>
 							</Media>
 						</Row>
@@ -206,15 +247,6 @@ class HomePage extends Component {
 							</Col>
 							<Col xs={12} md={6}>
 								<p>Achieved 13 GCSEs graded A*-C, with A* in Maths, Computing, and statistics.</p>
-							</Col>
-						</Row>
-					</section>
-					<section>
-						<span className="anchor" id="projects"/>
-						<PageHeader>Previous Projects</PageHeader>
-						<Row>
-							<Col xs={12}>
-								tttttttttttttttttt
 							</Col>
 						</Row>
 					</section>

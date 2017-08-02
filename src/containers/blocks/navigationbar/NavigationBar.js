@@ -19,7 +19,8 @@ export default class NavigationBar extends Component {
                 <Nav>
                     <NavItem eventKey={1} href="#home">Home</NavItem>
                     <NavItem eventKey={2} href="#languages">Language Proficiencies</NavItem>
-                    <NavItem eventKey={3} href="#education">Education</NavItem>
+                    <NavItem eventKey={3} href="#work">Work History</NavItem>
+                    <NavItem eventKey={4} href="#education">Education History</NavItem>
                 </Nav>
             </Navbar>
         )

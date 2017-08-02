@@ -6,16 +6,12 @@
     "extends": "xo-react"
   },
   "dependencies": {
-    "axios": "^0.16.1",
+    "chart.js": "^2.6.0",
     "node-sass": "^4.3.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-redux": "^5.0.4",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.0.0-beta.8",
-    "react-router-redux": "^5.0.0-alpha.6",
-    "redux": "^3.6.0",
-    "redux-thunk": "^2.2.0"
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
@@ -36,7 +32,6 @@
     "postcss-loader": "^2.0.6",
     "prop-types": "^15.5.10",
     "react-hot-loader": "^3.0.0-beta.6",
-    "redux-devtools-extension": "^2.13.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",

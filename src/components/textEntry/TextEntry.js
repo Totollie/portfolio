@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import './TextEntry.scss';
+import Title from "../title/Title";
 
 class TextEntry extends Component {
 
@@ -9,7 +10,7 @@ class TextEntry extends Component {
 
         return (
             <div className="text-entry">
-                <h2>{title}</h2>
+                <Title>{title}</Title>
                 {children}
             </div>
         )

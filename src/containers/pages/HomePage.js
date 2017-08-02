@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
-import me from 'images/me.png';
-import {Col, Grid, Image, Jumbotron, PageHeader, Row, Table} from "react-bootstrap";
+import me from '../../../public/images/me.png';
+import seyahlogo from '../../../public/images/seyahlogo.png';
+import itinnov from '../../../public/images/itInnov.png';
+import {Button, Col, Grid, Image, Jumbotron, Media, PageHeader, Row, Table, Thumbnail} from "react-bootstrap";
 import TextEntry from "../../components/textEntry/TextEntry";
 
 class HomePage extends Component {
@@ -12,15 +14,6 @@ class HomePage extends Component {
 	}
 
 	render() {
-		const javascript = {
-			labels: ['Javascript', ''],
-			datasets: [{
-				data: [280, 80],
-				backgroundColor: ['#FF6384', '#FFF'],
-				hoverBackgroundColor: ['#FF6384', '#FFF']
-			}]
-		};
-
 		return (
 			<div className="document">
 				<Grid>
@@ -65,6 +58,49 @@ class HomePage extends Component {
 							<Col xs={6} md={4}>
 								<DonutChart value={95} title="Git Flow" strokeColour="black"/>
 							</Col>
+						</Row>
+					</section>
+					<section>
+						<span className="anchor" id="work"/>
+						<PageHeader>Work History</PageHeader>
+						<Row>
+							<Media>
+								<Media.Left>
+									<img width={64} height={64} src={itinnov} alt="Image"/>
+								</Media.Left>
+								<Media.Body>
+									<Media.Heading>Research Project Assistant 5G-ENSURE
+										<small>IT Innovation Centre (June 2016 - September 2017)</small>
+									</Media.Heading>
+									<p>
+										<span style={{fontWeight: "600", display: "block"}}>
+											Contributions towards H2020 Research Project 5G-ENSURE
+											for modelling security threats in future mobile networks
+										</span>
+										Developing and maintaining ReactJS + Spring Boot based modelling
+										application, for the purpose of creating graphical diagrams. Designed user
+										interface and contributed to development of RESTful web service, alongside
+										deployment of the application. It used libraries such as JSPlumb, Axios, and
+										common web development integrated tools such as hot module reloading.
+									</p>
+								</Media.Body>
+							</Media>
+						</Row>
+						<Row>
+							<Media>
+								<Media.Left>
+									<img width={64} height={64} src={seyahlogo} alt="Image"/>
+								</Media.Left>
+								<Media.Body>
+									<Media.Heading>Principal Software Developer
+										<small>SEYAH Freelancing (May 2012 - Ongoing)</small>
+									</Media.Heading>
+									<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+										sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
+										viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+										lacinia congue felis in faucibus.</p>
+								</Media.Body>
+							</Media>
 						</Row>
 					</section>
 					<section>
@@ -137,7 +173,7 @@ class HomePage extends Component {
 							</Col>
 						</Row>
 						<span style={{display: "block", marginBottom: "10px"}}>
-						A-Level/GCSE <small style={{color: "#828282", marginLeft: "10px"}}>(207-2014) Westcliff High School for Boys</small>
+						A-Level/GCSE <small style={{color: "#828282", marginLeft: "10px"}}>(2007-2014) Westcliff High School for Boys</small>
 					</span>
 						<Row>
 							<Col xs={12} md={6}>
@@ -176,12 +212,6 @@ class HomePage extends Component {
 					<section>
 						<span className="anchor" id="projects"/>
 						<PageHeader>Previous Projects</PageHeader>
-						<Row>
-							<Col xs={12}>
-								tttttttttttttttttt
-							</Col>
-						</Row>
-						<PageHeader id="test">Language Proficiencies</PageHeader>
 						<Row>
 							<Col xs={12}>
 								tttttttttttttttttt

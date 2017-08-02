@@ -31,6 +31,7 @@ body {
 
       .row {
         display: flex;
+        margin: 5px 0;
 
         &.jumbotron {
           padding-bottom: 0;
@@ -40,7 +41,7 @@ body {
       }
 
       .page-header {
-        margin: 0;
+        margin: 0 0 10px;
         padding: 0;
         h1 {
           font-size: 22px;

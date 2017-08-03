@@ -7,7 +7,9 @@
   p {
     text-align: center;
     margin: 0 0 10px;
-    color: $SECONDARY_COLOR;
+    &.orange {
+      color: $SECONDARY_COLOR;
+    }
   }
   a {
     color: $MAIN_COLOR;

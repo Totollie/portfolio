@@ -14,7 +14,9 @@ export default class NavigationBar extends Component {
                     <Navbar.Brand>
                         <a href="#home">Oliver Hayes</a>
                     </Navbar.Brand>
+                    <Navbar.Toggle />
                 </Navbar.Header>
+                <Navbar.Collapse>
                 <Nav>
                     <NavItem eventKey={10} href="#about">About Me</NavItem>
                     <NavItem eventKey={20} href="#skills">Technical Skills</NavItem>
@@ -23,6 +25,7 @@ export default class NavigationBar extends Component {
                     <NavItem eventKey={50} href="#extra-curricular">Extra-curricular</NavItem>
                     <NavItem eventKey={60} href="#education">Education History</NavItem>
                 </Nav>
+                </Navbar.Collapse>
             </Navbar>
         )
     }

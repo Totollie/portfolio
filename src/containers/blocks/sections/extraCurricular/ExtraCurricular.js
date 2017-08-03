@@ -17,11 +17,7 @@ export default class ExtraCurricular extends Component {
 						</Media.Left>
 						<Media.Body>
 							<Media.Heading>
-								<span style={{display: "block"}}>Co-President - Fish on Toast</span>
-								&nbsp;
-								<small>
-									(June 2017 - June 2018)
-								</small>
+								<span style={{display: "block"}}>Co-President - Fish on Toast&nbsp;<small>(June 2017 - June 2018)</small></span>
 							</Media.Heading>
 							<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
 										Providing the principle leadership and responsibility for the organisation and
@@ -40,11 +36,7 @@ export default class ExtraCurricular extends Component {
 						</Media.Left>
 						<Media.Body>
 							<Media.Heading>
-								<span style={{display: "block"}}>Vice-President - Electronics and Computer Science Society</span>
-								&nbsp;
-								<small>
-									(June 2016 - June 2017)
-								</small>
+								<span style={{display: "block"}}>Vice-President - Electronics and Computer Science Society&nbsp;<small>(June 2016 - June 2017)</small></span>
 							</Media.Heading>
 							<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
 										Assisted the president in admin tasks and representing the society at faculty and Union Southampton society events.
@@ -63,11 +55,7 @@ export default class ExtraCurricular extends Component {
 						</Media.Left>
 						<Media.Body>
 							<Media.Heading>
-								<span style={{display: "block"}}>Secretary - Union Films</span>
-								&nbsp;
-								<small>
-									(June 2016 - June 2017)
-								</small>
+								<span style={{display: "block"}}>Secretary - Union Films&nbsp;<small>(June 2016 - June 2017)</small></span>
 							</Media.Heading>
 							<span style={{fontWeight: "600", display: "block", marginBottom: "5px"}}>
 										The key link between the committee and students through replying to queries and

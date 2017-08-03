@@ -9,8 +9,7 @@ export default class AboutSplash extends Component {
 			<section style={{
 				height: "100vh",
 				display: "flex",
-				justifyContent: "center",
-				backgroundColor: "#fff2c3"
+				justifyContent: "center"
 			}}>
 				<span className="anchor exact" id="about"/>
 				<Jumbotron bsClass="jumbotron banner">

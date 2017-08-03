@@ -4,17 +4,15 @@ import TextEntry from "../../../../components/textEntry/TextEntry";
 import seyahlogo from '../../../../../public/images/seyahlogo.png';
 
 export default class AboutSplash extends Component {
-	render(){
+	render() {
 		return (
 			<section style={{
 				height: "100vh",
 				display: "flex",
 				justifyContent: "center",
-				backgroundColor: "#fff2c3",
-				borderBottom: "1px solid #aaa",
-				borderTop: "1px solid #aaa",
+				backgroundColor: "#fff2c3"
 			}}>
-				<span className="anchor" id="about"/>
+				<span className="anchor exact" id="about"/>
 				<Jumbotron bsClass="jumbotron banner">
 					<hr/>
 					<Row>
@@ -28,14 +26,12 @@ export default class AboutSplash extends Component {
 								<TextEntry title={"About Me"}>
 									<p style={{textAlign: "center", fontSize: "20px", margin: "20px"}}>
 										I am an active web developer with significant experience in back-end
-										systems as well. I have worked with a wide range of technologies
-										depending on the requirements of the project and I am flexible to its
-										needs.<br/><br/>I am also a full-time student, in my third year of a
-										degree towards MEng Computer Science, having taken a year out working as
-										a research intern.<br/><br/>Take a look at the skills I have acquired
-										below!
-										<br/><a style={{display: "block", fontSize: "20px", margin: "10px"}}
-												href="#skills">Go</a>
+										systems. I have worked with a wide range of technologies depending on the
+										requirements of the project and I am flexible to its needs.<br/><br/>I am also a
+										full-time student, in my third year of a degree towards MEng Computer Science,
+										having taken a year out working as a research intern.<br/><br/>Take a look at
+										the skills I have acquired below!<br/>
+										<a style={{display: "block", fontSize: "20px", margin: "10px"}} href="#skills">Go</a>
 									</p>
 								</TextEntry>
 							</div>

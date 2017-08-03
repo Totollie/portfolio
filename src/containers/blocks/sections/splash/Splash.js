@@ -7,7 +7,7 @@ export default class Splash extends Component {
 	render() {
 		return (
 			<section style={{height: "100vh", display: "flex", justifyContent: "center"}}>
-				<span className="anchor" id="home"/>
+				<span className="anchor exact" id="home"/>
 				<Jumbotron bsClass="jumbotron banner">
 					<hr/>
 					<Row>
@@ -20,10 +20,10 @@ export default class Splash extends Component {
 							<div className="centered-box">
 								<TextEntry title={"Oliver Hayes"}>
 									<p className="orange"
-									   style={{textAlign: "center", fontSize: "20px", margin: "20px"}}>
-										Full stack web app developer, using Javascript and Java
-										<br/><a style={{display: "block", fontSize: "20px", margin: "10px"}}
-												href="#about">Go</a>
+									   style={{textAlign: "center", fontSize: "2rem", margin: "20px"}}>
+										Full stack Developer
+										<br/><a style={{display: "block", fontSize: "2rem", margin: "10px"}}
+												href="#about">Go >></a>
 									</p>
 								</TextEntry>
 							</div>

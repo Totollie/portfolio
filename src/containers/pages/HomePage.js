@@ -7,6 +7,7 @@ import Languages from "../blocks/sections/languages/Languages";
 import Work from "../blocks/sections/work/Work";
 import ExtraCurricular from "../blocks/sections/extraCurricular/ExtraCurricular";
 import Education from "../blocks/sections/education/Education";
+import ProjectSplash from "../blocks/sections/projectSplash/ProjectSplash";
 
 class HomePage extends Component {
 
@@ -27,6 +28,7 @@ class HomePage extends Component {
 					<Work/>
 					<ExtraCurricular/>
 					<Education/>
+					<ProjectSplash/>
 				</Grid>
 			</div>
 		);

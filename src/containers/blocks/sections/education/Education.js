@@ -44,7 +44,6 @@ export default class Education extends Component {
 						</Table>
 					</Col>
 					<Col xs={12} md={6}>
-						col-md-9 col-xs-12
 						<div>
 							<Table responsive striped>
 								<thead>

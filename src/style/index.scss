@@ -40,7 +40,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: $PAGE_BACKGROUND;
+        background-color: transparent;
 
         hr {
           width: 100%;
@@ -88,7 +88,7 @@ section {
   width: 0;
   height: 0;
   z-index: -1;
-  top: -60px;
+  top: -80px;
   left: 0;
   visibility: hidden;
 }

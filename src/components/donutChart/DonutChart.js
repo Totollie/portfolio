@@ -5,14 +5,14 @@ class DonutChart extends Component {
 	render() {
 
 		const halfSize = (this.props.size * 0.5);
-		const radius = halfSize - (this.props.strokewidth * 0.5);
+		const radius = halfSize - (this.props.strokeWidth * 0.5);
 		const circumference = 2 * Math.PI * radius;
 		const strokeVal = ((this.props.value * circumference) / 100);
 		const dashVal = (strokeVal + ' ' + circumference);
 
-		const trackStyle = {strokeWidth: this.props.strokewidth};
+		const trackStyle = {strokeWidth: this.props.strokeWidth};
 		const indicatorStyle = {
-			strokeWidth: this.props.strokewidth,
+			strokeWidth: this.props.strokeWidth,
 			strokeDasharray: dashVal,
 			stroke: this.props.strokeColour
 		};

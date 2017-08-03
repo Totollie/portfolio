@@ -5,7 +5,6 @@ import logo from '../../../../public/images/seyahlogo.png';
 export default class NavigationBar extends Component {
 
     render(){
-        console.log(window.pageYOffset);
         return (
             <Navbar fixedTop>
                 <Navbar.Header>
@@ -17,11 +16,12 @@ export default class NavigationBar extends Component {
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>
-                    <NavItem eventKey={0} href="#home">Home</NavItem>
-                    <NavItem eventKey={1} href="#skills">Technical Skills</NavItem>
-                    <NavItem eventKey={2} href="#languages">Language Proficiencies</NavItem>
-                    <NavItem eventKey={3} href="#work">Work History</NavItem>
-                    <NavItem eventKey={4} href="#education">Education History</NavItem>
+                    <NavItem eventKey={10} href="#about">About Me</NavItem>
+                    <NavItem eventKey={20} href="#skills">Technical Skills</NavItem>
+                    <NavItem eventKey={30} href="#languages">Language Proficiencies</NavItem>
+                    <NavItem eventKey={40} href="#work">Work History</NavItem>
+                    <NavItem eventKey={50} href="#extra-curricular">Extra-curricular</NavItem>
+                    <NavItem eventKey={60} href="#education">Education History</NavItem>
                 </Nav>
             </Navbar>
         )

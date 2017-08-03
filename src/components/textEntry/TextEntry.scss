@@ -1,9 +1,15 @@
+@import "../../style/vars.scss";
+
 .text-entry {
   .title {
     text-align: center;
   }
   p {
-    text-align: left;
+    text-align: center;
     margin: 0 0 10px;
+    color: $SECONDARY_COLOR;
+  }
+  a {
+    color: $MAIN_COLOR;
   }
 }

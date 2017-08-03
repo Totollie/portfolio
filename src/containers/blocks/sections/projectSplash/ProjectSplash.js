@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Col, Image, Jumbotron, Row} from "react-bootstrap";
 import TextEntry from "../../../../components/textEntry/TextEntry";
-import seyahlogo from '../../../../../public/images/seyahlogo.png';
+import code from '../../../../../public/images/code.jpg';
 
 export default class ProjectSplash extends Component {
 	render() {
@@ -9,8 +9,7 @@ export default class ProjectSplash extends Component {
 			<section style={{
 				height: "100vh",
 				display: "flex",
-				justifyContent: "center",
-				backgroundColor: "#e2fffa"
+				justifyContent: "center"
 			}}>
 				<span className="anchor exact" id="projects"/>
 				<Jumbotron bsClass="jumbotron banner">
@@ -18,7 +17,7 @@ export default class ProjectSplash extends Component {
 					<Row>
 						<Col xs={12} md={4}>
 							<div className="centered-box">
-								{/*<Image src={seyahlogo} rounded responsive/>*/}
+								<Image src={code} rounded responsive/>
 							</div>
 						</Col>
 						<Col xs={12} md={8}>

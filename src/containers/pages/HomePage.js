@@ -8,6 +8,8 @@ import Work from "../blocks/sections/work/Work";
 import ExtraCurricular from "../blocks/sections/extraCurricular/ExtraCurricular";
 import Education from "../blocks/sections/education/Education";
 import ProjectSplash from "../blocks/sections/projectSplash/ProjectSplash";
+import majorProjects from "../../../public/majorprojects.json";
+import MajorProject from "../blocks/sections/majorProject/MajorProject";
 
 class HomePage extends Component {
 
@@ -29,6 +31,9 @@ class HomePage extends Component {
 					<ExtraCurricular/>
 					<Education/>
 					<ProjectSplash/>
+
+                    {majorProjects.map(proj => <MajorProject proj={proj}/>)}
+
 				</Grid>
 			</div>
 		);

@@ -1,0 +1,26 @@
+[
+  {
+    "key": "site",
+    "name": "Portfolio Website",
+    "header": "This website!",
+    "description": "This website is coded using ReactJS, and SASS for styling. It takes advantage of different libraries which required the ability to read documentation for other code.",
+    "date": "July 2017",
+    "languages": [
+      "Javascript", "ReactJS", "SASS", "Webpack"
+    ],
+    "image": "portfolio.png",
+    "github": "https://github.com/seyah/portfolio"
+  },
+  {
+    "key": "site",
+    "name": "Portfolio Website",
+    "header": "This website!",
+    "description": "This website is coded using ReactJS, and SASS for styling. It takes advantage of different libraries which required the ability to read documentation for other code.",
+    "date": "July 2017",
+    "languages": [
+      "Javascript", "ReactJS", "SASS", "Webpack"
+    ],
+    "image": "portfolio.png",
+    "github": "https://github.com/seyah/portfolio"
+  }
+]

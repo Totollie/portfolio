@@ -7,6 +7,9 @@
   p {
     text-align: center;
     margin: 0 0 10px;
+    @media (max-width:768px) {
+      margin: 2px;
+    }
     &.orange {
       color: $SECONDARY_COLOR;
     }

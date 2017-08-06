@@ -24,7 +24,7 @@ body {
     background-color: $BACKGROUND;
     height: 100%;
 
-    .container {
+    .container.home {
       background-color: $PAGE_BACKGROUND;
       box-shadow: 0 0 5px 0 #000;
       padding: 0 0;
@@ -41,6 +41,9 @@ body {
         justify-content: center;
         align-items: center;
         background-color: transparent;
+        @media (max-width: 768px) {
+          padding: 0;
+        }
 
         hr {
           width: 100%;
@@ -75,9 +78,45 @@ body {
   }
 }
 
+.well {
+  border: 1px solid #9c9c9c;
+  &:hover {
+    box-shadow: 0 0 5px 0 #000;
+  }
+}
+
+.projects {
+  width: 100%;
+  padding-top: 10px;
+  @media (max-width: 768px) {
+    padding: 10px 0 0;
+  }
+  .minor-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    img {
+      border: 1px solid #000000;
+      margin-top: 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    p {
+      //font-size: 0.8em;
+    }
+  }
+}
+
 section {
   position: relative;
-  padding: 50px 50px 50px;
+  padding: 50px 50px;
+  @media (max-width: 768px) {
+    padding: 50px 10px;
+  }
   .page-header {
     border-bottom: 1px solid #666666;
   }

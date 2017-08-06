@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Col, PageHeader, Row, Table} from "react-bootstrap";
+import {Col, Grid, PageHeader, Row, Table} from "react-bootstrap";
 
 export default class Education extends Component {
 	render(){
@@ -7,10 +7,10 @@ export default class Education extends Component {
 			<section>
 				<span className="anchor" id="education"/>
 				<PageHeader>Education</PageHeader>
-				<span style={{display: "block", marginBottom: "10px"}}>
+				<span style={{display: "block", marginBottom: "10px", fontWeight: "600"}}>
 						MEng Computer Science <small style={{color: "#828282", marginLeft: "10px"}}>(2014-2019) University of Southampton</small>
 					</span>
-				<Row>
+                <Grid bsClass="container projects">
 					<Col xs={12} md={6}>
 						<Table responsive striped>
 							<thead>
@@ -70,11 +70,11 @@ export default class Education extends Component {
 							</p>
 						</div>
 					</Col>
-				</Row>
-				<span style={{display: "block", marginBottom: "10px"}}>
+				</Grid>
+				<span style={{display: "block", marginBottom: "10px", fontWeight: "600"}}>
 						A-Level/GCSE <small style={{color: "#828282", marginLeft: "10px"}}>(2007-2014) Westcliff High School for Boys</small>
 					</span>
-				<Row>
+                <Grid bsClass="container projects">
 					<Col xs={12} md={6}>
 						<Table responsive striped>
 							<thead>
@@ -106,7 +106,7 @@ export default class Education extends Component {
 					<Col xs={12} md={6}>
 						<p>Achieved 13 GCSEs graded A*-C, with A* in Maths, Computing, and Statistics.</p>
 					</Col>
-				</Row>
+				</Grid>
 			</section>
 		)
 	}

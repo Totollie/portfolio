@@ -10,6 +10,7 @@ import Education from "../blocks/sections/education/Education";
 import ProjectSplash from "../blocks/sections/projectSplash/ProjectSplash";
 import majorProjects from "../../../public/majorprojects.json";
 import MajorProject from "../blocks/sections/majorProject/MajorProject";
+import MinorProjects from "../blocks/sections/minorProjects/MinorProjects";
 
 class HomePage extends Component {
 
@@ -22,7 +23,7 @@ class HomePage extends Component {
 	render() {
 		return (
 			<div className="document">
-				<Grid>
+				<Grid bsClass="container home">
 					<Splash/>
 					<AboutSplash/>
 					<TechnicalSkills/>
@@ -31,9 +32,8 @@ class HomePage extends Component {
 					<ExtraCurricular/>
 					<Education/>
 					<ProjectSplash/>
-
                     {majorProjects.map(proj => <MajorProject proj={proj}/>)}
-
+                    <MinorProjects/>
 				</Grid>
 			</div>
 		);

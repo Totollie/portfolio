@@ -1,0 +1,86 @@
+[
+  {
+    "key": "claimzen",
+    "name": "Claimzen",
+    "description": "Created the base dashboard for a start-up company situated in Seattle. The requirement was to create a dashboard suitable for use by Law Attorneys in order to help better manage their cases. The creation of this was done to a specification provided by the client.",
+    "date": "April 2017",
+    "languages": [
+      "Javascript",
+      "ReactJS",
+      "SASS",
+      "Webpack"
+    ],
+    "image": "claimzen.png",
+    "github": [],
+    "docs": ["http://www.claimzen.com/"]
+  },
+  {
+    "key": "boilerplate",
+    "name": "ReactJS Boilerplate",
+    "description": "This is my own publicly available boilerplate when starting a new ReactJS project. It incorporates frameworks such as React-Router and Redux to provide an easy start to a fully complimented project. It also has the option of adding API calls to partner it with a back-end.",
+    "date": "June 2017",
+    "languages": [
+      "Javascript",
+      "ReactJS",
+      "SASS",
+      "Webpack"
+    ],
+    "image": "boilerplate.png",
+    "github": ["https://github.com/seyah/simple-react-boilerplate"],
+    "docs": []
+  },
+  {
+    "key": "auth-server",
+    "name": "Auth Server Boilerplate",
+    "description": "This code is the culmination of my practice with regards to Social Login. It utilises the Spring Boot framework from a variety of perspectives to achieve this. I use it as a boilerplate for any starting point when creating a Resource Server.",
+    "date": "June 2017",
+    "languages": [
+      "Spring Boot",
+      "Social Login",
+      "REST"
+    ],
+    "image": "auth-server.png",
+    "github": ["https://github.com/seyah/auth-server"],
+    "docs": []
+  },
+  {
+    "key": "turbatio",
+    "name": "Turbatio",
+    "description": "This project was created towards the awarding of a module at university. It is a custom-made programming language named Turbatio, which works as a simplistic language for modifying lists of numeric values. It allows chaining of commands giving the option to 'stream' data.",
+    "date": "March 2016",
+    "languages": [
+      "OCaml",
+      "Lexer",
+      "Parser"
+    ],
+    "image": "turbatio.png",
+    "github": ["https://github.com/seyah/Comp2212-Turbatio"],
+    "docs": []
+  },
+  {
+    "key": "moxie-skills",
+    "name": "Moxie Skills",
+    "description": "This project was created towards the awarding of an A-Level in Computing. It is an expansive project which aims to create a role-playing reproduction of the Game of Thrones universe in the game Minecraft. It involves coding on top of the existing 'Bukkit' framework and API to enhance the game's features in new and unique ways.",
+    "date": "April 2014",
+    "languages": [
+      "Java",
+      "API"
+    ],
+    "image": "moxieskills.png",
+    "github": [],
+    "docs": ["https://drive.google.com/file/d/0BwCDhRgaw5PleE0tbkNGT3l5RWc/view?usp=sharing"]
+  },
+  {
+    "key": "dragon-travel",
+    "name": "Dragon Travel",
+    "description": "I have previously worked collaboratively with a German software developer to create a very unique idea for the 'Bukkit' framework and API. The concept is based on giving a user the ability to ride dragons within the game. This sort of functionality has yet to be replicated to such a level and has currently reached over 240, 000 downloads.",
+    "date": "Until 2016",
+    "languages": [
+      "Java",
+      "API"
+    ],
+    "image": "dragontravel.png",
+    "github": [],
+    "docs": ["https://dev.bukkit.org/projects/dragontravel"]
+  }
+]

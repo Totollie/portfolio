@@ -24,6 +24,14 @@ export default class Splash extends Component {
                                         Full stack Developer
                                         <br/><a style={{display: "block", fontSize: "2rem", margin: "10px"}}
                                                 href="#about">Go >></a>
+                                        <br/>
+                                        CV/Resume:
+                                        <a style={{margin: "0 6px"}}
+                                           href="https://drive.google.com/file/d/0BwCDhRgaw5PlWWZfMVFVMjB6Qk0/view?usp=sharing"
+                                           target="_blank"><i className="fa fa-lg fa-file"/></a>
+                                        <a style={{margin: "0 6px"}} href="https://www.linkedin.com/in/oliverhayes96/"
+                                           target="_blank"><i className="fa fa-lg fa-linkedin-square"/></a>
+
                                     </p>
                                 </TextEntry>
                             </div>

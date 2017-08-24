@@ -16,7 +16,7 @@
     "key": "tweet-globe",
     "name": "Tweet Globe",
     "header": "Tweet Globe",
-    "description": "This application is designed simply to stream tweets straight from the Twitter API. It works based on an authenticated user logging in and being able to see these tweets as they arrive. The current progress is applying authentication and retrieving tweets on the backend. This project is a work in progress.",
+    "description": "This application is designed simply to stream tweets straight from the Twitter API. It works based on an authenticated user logging in and being able to see these tweets as they arrive. This is fully backed by a graph database, allowing us view to current trends. This project is a work in progress.",
     "date": "Ongoing",
     "languages": [
       "Javascript", "ReactJS", "SASS", "Webpack", "Java", "Spring Boot", "MongoDB", "Public API"
@@ -29,7 +29,7 @@
     "key": "trust-builder",
     "name": "5G-Ensure",
     "header": "Trust Builder",
-    "description": "This project was worked on during my internship at IT Innovation Centre over the course of a year. I worked within a team to develop a ReactJS based diagram tool with the aim of providing a knowledge base of 5G assets, threats and controls. The source code is not available for this project.",
+    "description": "This project was worked on during my internship at IT Innovation Centre over the course of a year. I worked within a team to develop a ReactJS based diagram tool with the aim of providing a knowledge base of 5G assets, threats and controls. The source code cannot be disclosed for this project.",
     "date": "June 2016 - September 2017",
     "languages": [
       "Javascript", "ReactJS", "SASS", "Webpack", "Java", "Spring Boot", "MongoDB", "Public API"

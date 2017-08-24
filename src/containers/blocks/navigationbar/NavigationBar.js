@@ -35,6 +35,9 @@ export default class NavigationBar extends Component {
                             <MenuItem divider />
                             {minorProjects.map(proj => <MenuItem eventKey={proj.key} href={"#"+proj.key}>{proj.name}</MenuItem>)}
                         </NavDropdown>
+                        <NavItem eventKey={5} href="//blog.olliehayes.co.uk">Blog</NavItem>
+                        <NavItem eventKey={6} href="https://drive.google.com/file/d/0BwCDhRgaw5PlWWZfMVFVMjB6Qk0/view?usp=sharing">Resume</NavItem>
+                        <NavItem eventKey={7} href="https://www.linkedin.com/in/oliverhayes96/">LinkedIn</NavItem>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
